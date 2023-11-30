@@ -4,6 +4,8 @@ Official repository for WACV2024 paper [Improving Open-Set Semi-Supervised Learn
 
 Additionally, this repo contains Tensorflow implementations of FixMatch and DoubleMatch with RandAugment.
 
+![SeFOSS graph](/media/SeFOSS-graph.png)
+
 ## Requirements
 
 Python requirements are specified in requirements.txt.
