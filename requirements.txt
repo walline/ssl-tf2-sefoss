@@ -1,0 +1,5 @@
+tensorflow==2.14.0
+absl-py
+numpy
+scipy
+tensorflow_addons
