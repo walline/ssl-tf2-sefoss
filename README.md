@@ -1,4 +1,4 @@
-# ProSub
+# SeFOSS
 
 Official repository for WACV2024 paper [Improving Open-Set Semi-Supervised Learning with Self-Supervision](https://arxiv.org/abs/2301.10127)
 
