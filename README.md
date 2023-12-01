@@ -18,14 +18,14 @@ This code reads data from tfrecord files.
 
 To download data and prepare the tfrecord files, run
 ```bash
-python3 scripts/generate_datasets.py \
+python3 scripts/create_datasets.py \
 --datadir="directory for saving tfrecord files"
 ```
 
 To create the labeled subsets, run for example
 ```bash
 DATADIR="directory containing tfrecord files"
-python3 scripts/create_split.py
+python3 scripts/create_split.py \
 --seed=1 \
 --size=4000 \
 $DATADIR/SSL2/cifar10 \
