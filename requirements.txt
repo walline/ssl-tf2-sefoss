@@ -1,5 +1,6 @@
 tensorflow==2.14.0
 absl-py
+tqdm
 numpy
 scipy
 tensorflow_addons
