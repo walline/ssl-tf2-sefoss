@@ -10,6 +10,8 @@ Additionally, this repo contains Tensorflow implementations of FixMatch and Doub
 
 Python requirements are specified in requirements.txt.
 
+**Optional**: [Dockerfile](Dockerfile) defines a working docker environment for running this code.
+
 ## Preparation
 
 Make sure the ssl-tf2-sefoss directory is in your Python path when running this code:
@@ -23,7 +25,7 @@ DATADIR="directory for storing data"
 TRAINDIR="directory for storing checkpoints and results"
 ```
 
-Optional: set logging level = 1 to disable info messages
+**Optional**: set logging level = 1 to disable info messages
 ```bash
 export TF_CPP_MIN_LOG_LEVEL=1
 ```
