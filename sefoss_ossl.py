@@ -457,7 +457,7 @@ class SefossOSSL(BaseModel):
                 self.strategy.run(self.train_step, args=(labeled_item, unlabeled_item))
                 self.ckpt.step.assign_add(1)
 
-                if not self.thresholds_set and self.ckpt.step >= FLAGS.pretrainsteps:
+                if not self.thresholds_set.numpy() and self.ckpt.step >= FLAGS.pretrainsteps:
                     self.set_thresholds(data_train_raw)
 
             # place augmented images in logging variables
