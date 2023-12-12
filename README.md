@@ -68,5 +68,9 @@ python3 sefoss_ossl.py \
 --arch=WRN-28-2 \
 --seed=1
 ```
+## Results
 
-
+Results are stored in summary files in the training directory. View results with tensorboard using
+```bash
+tensorboard --logdir $TRAINDIR
+```
