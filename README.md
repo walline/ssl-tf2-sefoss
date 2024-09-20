@@ -54,7 +54,7 @@ which creates a labeled subset of CIFAR-10 with 4,000 samples using random seed 
 
 ## Training
 
-To run SeFOSS using CIFAR-10 with 4,000 labels as ID and CIFAR-100, use
+To run SeFOSS using CIFAR-10 with 4,000 labels as ID and CIFAR-100 as OOD, use
 ```bash
 python3 sefoss_ossl.py \
 --datadir=$DATADIR \
